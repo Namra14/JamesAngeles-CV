@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>James CV</title>
+
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light ">
+        <div class="container-xxl">
+            <a href="#home" class="navbar-brand"><span class="fw-bolder fst-italic text-secondary px-5"><i class="bi bi-code-slash mx-3"></i>James A.</span></a>
+
+<!--Navbar TOGGLE BUTTON-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#main-nav" aria-controls="main-nav" 
+            aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Navbar LINKS-->
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
+              <ul class="navbar-nav fw-bold ">
+                <li class="nav-item active">
+                  <a class="nav-link text-dark" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Galery</a>
+                  </li>
+                <li class="nav-item d-md-none">
+                  <a class="nav-link text-dark" href="#works">Projects</a>
+                </li>
+                <li class="nav-item ms-2 d-none d-md-inline">
+                    <a class="btn btn-outline-dark" href="#works">Projects</a>
+                  </li>
+                
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Intro-->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2 fw-bold">James Angeles</div>
+                        <div class="display-5 text-muted fst-italic">Front End Developer</div>
+                    </h1>
+                    <a href="index.html#about" class="btn btn-outline-secondary btn-lg">About Me!</a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <img src="img/picture.jpg" alt="" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Aboutme-->
+    <section id="aboutme" class="bg-light">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>About Me</h2>
+            </div>
+
+            <div class="row my-5 g-5 justify-content-around align-items-center g-5">
+                <div class="col-6 col-lg-4">
+                    <img src="img/picture.jpg" class="img-fluid rounded-circle shadow-4-strong" alt="mypicture">
+                </div>
+                <div class="col-lg-8">
+                    <div class="accordion" id="about">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#about-1" aria-expanded="true" aria-controls="about-1">About my Self</button>
+                            </h2>
+                            <div id="about-1" class="accordion-collapse collapse show" 
+                                aria-labelledby="heading-1" data-bs-parent="#about">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis 
+                                        veniam necessitatibus ipsam amet, possimus eaque, magni, 
+                                        natus pariatur distinctio quos dolorum. Consequatur corporis 
+                                        possimus qui ullam culpa dolorum fugit unde?</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis 
+                                            veniam necessitatibus ipsam amet, possimus eaque, magni, 
+                                            natus pariatur distinctio quos dolorum. Consequatur corporis 
+                                            possimus qui ullam culpa dolorum fugit unde?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-2">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#about-2" aria-expanded="true" aria-controls="about-2">About my SchoolLife</button>
+                            </h2>
+                            <div id="about-2" class="accordion-collapse collapse" 
+                                aria-labelledby="heading-2" data-bs-parent="#about">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis 
+                                        veniam necessitatibus ipsam amet, possimus eaque, magni, 
+                                        natus pariatur distinctio quos dolorum. Consequatur corporis 
+                                        possimus qui ullam culpa dolorum fugit unde?</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis 
+                                            veniam necessitatibus ipsam amet, possimus eaque, magni, 
+                                            natus pariatur distinctio quos dolorum. Consequatur corporis 
+                                            possimus qui ullam culpa dolorum fugit unde?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-3">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#about-3" aria-expanded="true" aria-controls="about-3">About my Hobbies</button>
+                            </h2>
+                            <div id="about-3" class="accordion-collapse collapse " 
+                                aria-labelledby="heading-3" data-bs-parent="#about">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis 
+                                        veniam necessitatibus ipsam amet, possimus eaque, magni, 
+                                        natus pariatur distinctio quos dolorum. Consequatur corporis 
+                                        possimus qui ullam culpa dolorum fugit unde?</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis 
+                                            veniam necessitatibus ipsam amet, possimus eaque, magni, 
+                                            natus pariatur distinctio quos dolorum. Consequatur corporis 
+                                            possimus qui ullam culpa dolorum fugit unde?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-4">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#about-4" aria-expanded="true" aria-controls="about-4">About my Self</button>
+                            </h2>
+                            <div id="about-4" class="accordion-collapse collapse " 
+                                aria-labelledby="heading-4" data-bs-parent="#about">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis 
+                                        veniam necessitatibus ipsam amet, possimus eaque, magni, 
+                                        natus pariatur distinctio quos dolorum. Consequatur corporis 
+                                        possimus qui ullam culpa dolorum fugit unde?</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis 
+                                            veniam necessitatibus ipsam amet, possimus eaque, magni, 
+                                            natus pariatur distinctio quos dolorum. Consequatur corporis 
+                                            possimus qui ullam culpa dolorum fugit unde?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Cards-->
+    <section id="works" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2 class="display-5 fw-bold">My Works</h2>
+                <p class="text-muted">Explore with my works</p>
+            </div>
+
+            <div class="row my-5 align-items-center justify-content-center g-3">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <img src="img/picture.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center py-5">
+                          <h5 class="card-title text-dark fw-bold">Specialization/Recommendation System</h5>
+                          <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur 
+                            adipisicing elit. </p>
+                          <a href="#" class="btn btn-outline-secondary mt-3">Explore</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-secondary border-2">
+                        <img src="img/picture.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center py-5">
+                          <h5 class="card-title text-dark fw-bold">Specialization/Recommendation System</h5>
+                          <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur 
+                            adipisicing elit. </p>
+                          <a href="#" class="btn btn-outline-secondary mt-3">Explore</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <img src="img/picture.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center py-5">
+                          <h5 class="card-title text-dark fw-bold">Specialization/Recommendation System</h5>
+                          <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur 
+                            adipisicing elit. </p>
+                          <a href="#" class="btn btn-outline-secondary mt-3">Explore</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-secondary border-2">
+                        <img src="img/picture.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center py-5">
+                          <h5 class="card-title text-dark fw-bold">Specialization/Recommendation System</h5>
+                          <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur 
+                            adipisicing elit. </p>
+                          <a href="#" class="btn btn-outline-secondary mt-3">Explore</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Education-->
+    <section id="educ" class="bg-light">
+        <div class="container my-3">
+            <div class="text-center">
+                <h2 class="display-6 text-dark fw-bold">Education</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-xl-8 my-5">
+                        <div class="card border-2 shadow-lg">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-secondary fw-bold my-3">My Education Background</h5>
+
+                                <!--elem button-->
+                                <button class="btn btn-outline-dark btn-sm mx-2 my-3" type="button" data-bs-toggle="offcanvas" 
+                                data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">Elementary</button>
+
+                                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 id="offcanvasLeftLabel" class="display-6 fw-bold">Elementary</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <h5 class="text-success fw-bold">Lamot 2 Annex Elementary School</h5>
+                                        <p class="text-muted fw-bold">2008-2014</p>
+                                    </div>
+                                </div>
+
+                                <!--Secondary button-->
+                                <button class="btn btn-outline-dark btn-sm mx-2" type="button" data-bs-toggle="offcanvas" 
+                                data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Secondary</button>
+
+                                <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 id="offcanvasBottomLabel" class="display-6 fw-bold">Secondary - Highschool</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body small">
+                                        <h5 class="text-success fw-bold">Liceo De Calauan School</h5>
+                                        <p class="text-muted fw-bold">2014-2020</p>
+                                    </div>
+                                </div>
+
+                                <!--Tertiary button-->
+                                <button class="btn btn-outline-dark btn-sm mx-2" type="button" data-bs-toggle="offcanvas" 
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Tertiary</button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 id="offcanvasRightLabel" class="display-6 fw-bold">Tertiary - College</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <h5 class="text-success fw-bold">Laguna State Polytechnic University SPCC</h5>
+                                        <p class="text-muted fw-bold">2020-Currently</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Programming Language and Framework-->
+    <section id="prog" class="secondary">
+        <div class="container my-3">
+            <h2 class=" display-5 text-center fw-bold">Programming Skills</h2>
+            <div class="row justify-content-center my-5">
+                <div class="col-9 col-xl-2 my-4">
+                    <h3 class="text-center">HTML</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 col-xl-2 my-4">
+                    <h3 class="text-center">CSS</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 73%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 col-xl-2 my-4">
+                    <h3 class="text-center">JavaScript</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 col-xl-2 my-4">
+                    <h3 class="text-center">Bootstrap</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 73%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 col-xl-2 my-4">
+                    <h3 class="text-center">Node.js</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-secondary" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                  
+            </div>
+        </div>
+
+    </section>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light ">
+        <div class="container-xxl">
+            <a href="#home" class="navbar-brand"><span class="fw-bolder fst-italic text-secondary px-5"><i class="bi bi-code-slash mx-3"></i>James A.</span></a>
+
+<!--Navbar TOGGLE BUTTON-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#main-nav" aria-controls="main-nav" 
+            aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Navbar LINKS-->
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
+              <ul class="navbar-nav fw-bold ">
+                <li class="nav-item active">
+                  <a class="nav-link text-dark" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Galery</a>
+                  </li>
+                <li class="nav-item d-md-none">
+                  <a class="nav-link text-dark" href="#works">Projects</a>
+                </li>
+                <li class="nav-item ms-2 d-none d-md-inline">
+                    <a class="btn btn-outline-dark" href="#works">Projects</a>
+                  </li>
+                
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
