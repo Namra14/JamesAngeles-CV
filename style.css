@@ -16,3 +16,15 @@ html{
 .container > div{
     flex: 1 1 150px;
 }
+.hy1{
+    color: orange;
+}
+.c1{
+    color: blue;
+}
+.j1{
+    color: #F0DE36;
+}
+.b1{
+    color: #7071E8;
+}
